@@ -1,0 +1,10 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  color: black;
+  flex-direction: column;
+}
+
+.appHeader {
+  font-size: calc(10px + 2vmin);
+}

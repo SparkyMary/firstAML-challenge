@@ -1,0 +1,21 @@
+.pageRoot {
+  display: flex;
+  font-size: 14px;
+  display: flex;
+}
+
+.pageChild,
+.companiesContainer {
+  margin: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  margin: 8px;
+}
+
+.subOwner {
+  margin-left: 24px;
+}

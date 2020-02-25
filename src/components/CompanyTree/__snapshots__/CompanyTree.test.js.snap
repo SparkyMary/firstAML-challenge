@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CompanyTree render empty tree 1`] = `
+<div>
+  <div
+    className="companyRoot"
+  >
+    AAA Company
+  </div>
+  <div
+    className="tree"
+  >
+    <div />
+  </div>
+</div>
+`;
+
+exports[`CompanyTree renders correctly 1`] = `
+<div>
+  <div
+    className="companyRoot"
+  >
+    AAA Company
+  </div>
+  <div
+    className="tree"
+  >
+    <div>
+      <div>
+        B owner
+         (
+        Director
+        )
+         
+        
+        <div
+          className="subOwner"
+        >
+          <div>
+            <div>
+              F owner
+               (
+              Trustee
+              )
+               
+              
+              <div
+                className="subOwner"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        D owner
+         (
+        Shareholder
+        )
+         
+        (10% Share)
+        <div
+          className="subOwner"
+        />
+      </div>
+      <div>
+        E owner
+         (
+        Shareholder
+        )
+         
+        (20% Share)
+        <div
+          className="subOwner"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
